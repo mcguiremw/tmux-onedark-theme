@@ -3,9 +3,11 @@ onedark_black="#282c34"
 onedark_blue="#61afef"
 onedark_yellow="#e5c07b"
 onedark_red="#e06c75"
-onedark_white="#aab2bf"
+# onedark_white="#aab2bf"
+onedark_white="#E5E4E2"
 onedark_green="#98c379"
 onedark_visual_grey="#3e4452"
+onedark_inactive_red="#B6B6B4"
 onedark_comment_grey="#5c6370"
 
 get() {
@@ -58,7 +60,8 @@ setw "window-status-activity-attr" "none"
 
 setw "window-status-separator" ""
 
-set "window-style" "fg=$onedark_comment_grey"
+set "window-style" "fg=$onedark_inactive_red"
+# set "window-style" "fg=$onedark_white"
 set "window-active-style" "fg=$onedark_white"
 
 set "pane-border-fg" "$onedark_white"
